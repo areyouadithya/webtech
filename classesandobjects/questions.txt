@@ -1,0 +1,28 @@
+1) write a program that prompts for and reads the users city and country separately then print a string composed of the first letters of the users country followed by a comma and then folowed by user city  ad followed by random number 1 t0 100 which represent which represent the pincode of the city
+
+2) write a program that prints square of the product prompt for and read three integer values and print the square of the product of all the three integers
+
+3) write a program that creates and prints a random phone number of the form XXX-XXX-XXXX. include the dashes in the output . Do not let the first three digits contain an 8 or 9 (but don't be more restrictive than that), and make sure that the second set of three digits is not greater than 655. Hint : think through the easiest way to construct the phone number . Each digit does not have to be determined separately.
+
+4) Write a program that reads an integer values and prints the values raised to the power of that number. for example if the number is 2, the program would print 7.389056 (where e=2.71828).
+
+5) write a program that reads the (x,y) coordinates for two points which form a straight line.compute the slope of the line using the following formula
+
+slope (m) = (y2-y1)/(X2-X1)
+
+6)  write a program that reads the radius of a sphere and prints its volume and surface area . use the following formulas . Print the output to four decimal places . r represents the raius.
+
+Volume = 4/3 * pi * r^3
+
+surface area =  4*pi *r^2
+
+7) write a program that reads the two sides and the height of a trapezoid from the user . Compute the area of the trapezoid using the formula given below , in which b represents the vertical length of the trapezoid and a and b represent the two sides of a trapezoid.Print the area to two decimal places.
+
+Area = ((a+b)/2)*b
+
+8) write a program that generates two random integers in the range 1 to 20 , incluesive and displays the sine and cosine of the sum of those two integers.
+
+9) write a program that generates a random integer base (b),height (h) and a side (a) for a parallelogram in the range 10 to 30, inclusive and then computes the area and perimeter of the parallelogram .
+
+Area = base * height
+Perimeter = 2*(a+b)

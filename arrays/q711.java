@@ -12,7 +12,7 @@ public class q711{
         int counts[]={10,23,11,34,22,67,85,52,59,53};
         System.out.println("`counts` array before: ");
         printarray(counts);
-
+        
         for(int i=0;i<counts.length;i++){
             counts[i]=0;
         }

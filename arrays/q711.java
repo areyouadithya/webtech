@@ -39,7 +39,7 @@ public class q711{
         printarray(bestScores);
         System.out.println("\n");
 
-        for(int i=0;i<bestScores.length;i++){
+        for(int i=0;i<5;i++){
             System.out.println(bestScores[i]);
         }
     }

@@ -1,37 +1,21 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Q3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        String ph = generateph();
+        System.out.println("Random phone number: "+ph);
 
-        System.out.print("Enter the value of n: ");
-        int n = scanner.nextInt();
-
-        if (n <= 0) {
-            System.out.println("Invalid input. Please enter a positive value for n.");
-            return;
+        public static string generateph(){
+            Random random = new Random();
+            int x1,x2,x3;
+            x1=random.nextInt(8);
+            x2=random.nextInt(8);
+            x3=random.nextInt(8);
+            int sec = random.nextInt(656);
+            int last=random.nextInt(10000);
+            return string.format("%01d%01%01d-%03d-%04d",x1,x2,x3,sec,last);
         }
-
-        int largest = Integer.MIN_VALUE;
-        int smallest = Integer.MAX_VALUE;
-
-        for (int i = 1; i <= n; i++) {
-            System.out.print("Enter number " + i + ": ");
-            int num = scanner.nextInt();
-
-            if (num > largest) {
-                largest = num;
-            }
-
-            if (num < smallest) {
-                smallest = num;
-            }
-        }
-
-        System.out.println("Largest number: " + largest);
-        System.out.println("Smallest number: " + smallest);
-
-        scanner.close();
     }
 }
 

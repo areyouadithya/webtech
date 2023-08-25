@@ -14,10 +14,10 @@ public class phone{
 
         while(eightnine){
             ph1 = rand.nextInt(1000);
-            System.out.println(ph1);
+           // System.out.println(ph1);
             temp = ph1;
             dig1 = temp%10;
-            System.out.println(dig1);
+            //System.out.println(dig1);
             if(dig1==8){
                 continue;
             }
@@ -27,7 +27,7 @@ public class phone{
             else{
                 temp /= 10;
                 dig10 = temp%10;
-                System.out.println(dig10);
+                //System.out.println(dig10);
                 if(dig10==8){
                     continue;
                 }
@@ -37,7 +37,7 @@ public class phone{
                 else{
                     temp /= 10;
                     dig100 = temp;
-                    System.out.println(dig100);
+                   // System.out.println(dig100);
                     if(dig100==8){
                         continue;
                     }
@@ -55,9 +55,12 @@ public class phone{
         };
 
 
-        System.out.println(ph1);
+       // System.out.println(ph1);
 
-        ph2 = rand.nextInt(655);
+        ph2 = (int)(Math.random()*(655-100+1)+100);
+        ph3 = rand.nextInt(10000);
+
+        System.out.println("Phone number: "+ph1+"-"+ph2+"-"+ph3);
 
     }
 }

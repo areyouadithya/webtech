@@ -52,7 +52,7 @@ public class q712{
             printarray(dup);
             System.out.println("\n");
         }
-        
+        ip.close();
 
        
     }

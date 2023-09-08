@@ -20,7 +20,7 @@ class SavingsAccount {
     }
 }
 
-public class q84 {
+public class q86 {
     public static void main(String[] args) {
         SavingsAccount.modifyInterestRate(0.04);
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q1{
+public class date{
     public static String month(int x){
         switch(x){
             case 1:

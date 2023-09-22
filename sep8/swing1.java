@@ -2,7 +2,7 @@
 import javax.swing.*;
 //import java.awt.*;  
 public class swing1 {  
-public static void main(String[] args) {  
+public static void main(String[] args){  
 JFrame f=new JFrame("Printer"); 
 JLabel l1 = new JLabel ("Printer: Myprinter");
 l1.setBounds(10, 15, 100, 20);
@@ -57,6 +57,6 @@ f.add(Help);
 f.add(l1);
 f.setSize(500,220);  
 f.setLayout(null);  
-f.setVisible(true); 
-}  
+f.setVisible(true);
+}
 }
